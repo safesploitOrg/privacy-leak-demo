@@ -1,4 +1,4 @@
-# WebRTC IP Leak Detection and Permissions Check
+# Web Browser Information Leak PoC
 
 This project demonstrates the potential for **Browser Information leaks** and provides a Proof of Concept (PoC) for collecting various device and browser-related information, such as local IP addresses, permissions, clipboard contents, and more. It highlights the importance of hardening browsers to protect privacy.
 
