@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Leak Demo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <h1>Browser Leak Demo Proof of Concept</h1>
+    <button id="collect-info">Collect Info</button>
+    <div id="info-container">
+        <h2>Device Information</h2>
+        <pre id="device-info"></pre>
+        <pre id="device-orientation-info"></pre>
+        <pre id="device-hardware-info"></pre>
+
+        <h2>Permissions Information</h2>
+        <pre id="device-permissions-info"></pre>
+        <pre id="device-clipboard-info"></pre>
+
+        <h2>Browser Information</h2>
+        <pre id="browser-info"></pre>
+        
+        <h2>Network Information</h2>
+        <pre id="network-info"></pre>
+        <pre id="local-ip-info"></pre>
+
+        <h2>Battery Information</h2>
+        <pre id="battery-info"></pre>
+        
+        <h2>Geolocation Information</h2>
+        <pre id="geolocation-info"></pre>
+        
+        <h2>Time Zone Information</h2>
+        <pre id="timezone-info"></pre>
+    </div>
+
+    <!-- Include the JS files -->
+    <script src="assets/js/publicIP.js"></script>
+    <script src="assets/js/deviceInfo.js"></script>
+    <script src="assets/js/collectPermissionsInfo.js"></script>
+    <script src="assets/js/browserInfo.js"></script>
+    <script src="assets/js/webrtcIP.js"></script>
+    <script src="assets/js/getLocalIP.js"></script>
+    <script src="assets/js/batteryInfo.js"></script>
+    <script src="assets/js/geolocationInfo.js"></script>
+    <script src="assets/js/timeZoneInfo.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
