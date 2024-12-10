@@ -21,8 +21,8 @@ This project is a Proof of Concept (PoC) designed to demonstrate the potential r
 ## Getting Started
 
 **Clone the repository**:
-    ```bash
-    git clone https://github.com/safesploitOrg/privacy-leak-demo.git
-    cd privacy-leak-demo
-    chrome index.html
-    ```
+```bash
+git clone https://github.com/safesploitOrg/privacy-leak-demo.git
+cd privacy-leak-demo
+chrome index.html
+```
